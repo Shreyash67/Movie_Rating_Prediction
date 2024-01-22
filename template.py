@@ -15,7 +15,6 @@ list_of_files=[
     f"src/{package_name}/logger.py",
     "notebooks/EDA.ipynb",
     "notebooks/FE.ipynb",
-    "notebooks/data/",
     "requirements.txt",
     "setup.py",
 ]
