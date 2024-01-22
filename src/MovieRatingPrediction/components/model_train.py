@@ -6,7 +6,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import AdaBoostRegressor
 from sklearn.svm import SVR
 from sklearn.neighbors import KNeighborsRegressor
-from sklearn.metrics import mean_absolute_error, mean_squared_error
+from sklearn.metrics import mean_absolute_error
 from src.MovieRatingPrediction.components.data_transformation import DataTransform
 from src.MovieRatingPrediction.components.data_ingestion import TrainingXY
 import pandas as pd
