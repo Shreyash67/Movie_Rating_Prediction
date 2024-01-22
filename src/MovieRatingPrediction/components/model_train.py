@@ -50,7 +50,7 @@ class ModelTraining:
             model.fit(x_train, y_train)
 
     def evaluate_models(self, x_test, y_test):
-        logging.info("------------ Model Evaluation Started ------------\n")
+        logging.info("------------ Model Evaluation Started ------------")
         metrics = {}
         for model_name, model in self.models.items():
             predictions = model.predict(x_test)
